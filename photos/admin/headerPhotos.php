@@ -1,0 +1,1 @@
+<a href="homePhotos.php">Home -- </a> <a href="insertPhoto.php">Vlozit fotku -- </a> <a href="homeMenu.php">Sprava Menu -- </a> <a href="http://localhost/photos/index-color.php">Back to main page -- </a> <a href="logout.php">Logout</a> 
