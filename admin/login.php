@@ -3,6 +3,10 @@ session_start();
 const USERNAME = "admin";
 const PASSWORD = "admin";
 
+if(isset($_SESSION['login']) ) {
+    header("Location: home.php");
+}
+
 if(isset($_POST['login'])) {
     if($_POST['username'] == USERNAME && $_POST['password'] == PASSWORD) {
         $_SESSION['login'] = true;
