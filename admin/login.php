@@ -16,7 +16,7 @@ if(isset($_GET['error'])) {
     echo "<p style='color: red'>Nespravne meno alebo heslo</p><br>";
 }
 ?>
-<a href="http://localhost/photos/index-color.php">Back to main page</a>
+<a href="../index-color.php">Back to main page</a>
 
 <form method="post" action="">
     Meno<br>

@@ -29,7 +29,7 @@ $db = new DB("localhost", 3306, "root", "", "photos_cerny");
                         echo '<li class="nav-item"><a class="nav-link" href="'.$url.'" data-no="'.$data_type.'">'.$menu_item.'</a></li>';
                     }
                 ?>
-                <a href="http://localhost/photos/admin/login.php">login</a>
+                <a href="admin/login.php">login</a>
                 </ul>
             </div>                        
         </div>
